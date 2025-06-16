@@ -1,0 +1,38 @@
+baseURL = 'https://Andrei-Constantin-Programmer.github.io/ibm-ucl-blog/'
+languageCode = 'en-gb'
+title = 'IBM x UCL: LLM-Based Legacy Code Refactoring'
+theme = "PaperMod"
+defaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+[params]
+    mainSections = ["posts"]
+    ShowBreadCrumbs = true
+    ShowReadingTime = true
+    ShowPostNavLinks = true
+    ShowCodeCopyButtons = true
+    defaultTheme = "auto"
+
+[pagination]
+    pagerSize = 5
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 2
+
+[[menu.main]]
+  name = "Project"
+  url = "/project"
+  weight = 3
+
+[[menu.main]]
+  name = "Team"
+  url = "/team"
+  weight = 4
+
