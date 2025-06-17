@@ -37,9 +37,14 @@ choco install hugo-extended -confirm
 ### Running the Blog
 
 ```bash
-git clone https://github.com/Andrei-Constantin-Programmer/ibm-ucl-blog.git
+git clone --recurse-submodules https://github.com/Andrei-Constantin-Programmer/ibm-ucl-blog.git
 cd ibm-ucl-blog
 hugo server
+```
+
+If you cloned the repository without `--recurse-submodules`, you can install them using:
+```bash
+git submodule update --init --recursive
 ```
 
 ## Contributors
