@@ -1,5 +1,5 @@
 +++
-date = '2025-06-16T20:44:48+01:00'
+date = '2025-06-16'
 draft = false
 title = 'Team'
 layout = "page"

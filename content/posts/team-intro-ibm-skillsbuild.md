@@ -1,5 +1,5 @@
 +++
-date = '2025-06-16T19:43:25+01:00'
+date = '2025-06-18'
 draft = true
 title = 'Building Our Foundation: AI SkillsBuild Certifications'
 tags = ["AI", "LLM", "SkillsBuild", "IBM", "Team Learning", "RAG", "Watsonx", "Embeddings", "Granite"]
