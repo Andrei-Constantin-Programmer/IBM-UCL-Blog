@@ -1,4 +1,5 @@
 # IBM x UCL - LLM-Based Legacy Code Refactoring (Tech Blog)
+[![Hugo](https://github.com/Andrei-Constantin-Programmer/IBM-UCL-Blog/actions/workflows/hugo.yml/badge.svg)](https://github.com/Andrei-Constantin-Programmer/IBM-UCL-Blog/actions/workflows/hugo.yml)
 ![GitHub License](https://img.shields.io/github/license/Andrei-Constantin-Programmer/IBM-UCL-Blog)
 
 This repository contains the official blog for our MSc group project at University College London (UCL), delivered in collaboration with IBM.
