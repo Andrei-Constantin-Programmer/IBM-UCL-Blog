@@ -16,6 +16,9 @@ enableInlineShortcodes = true
 [pagination]
     pagerSize = 5
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -40,8 +43,8 @@ enableInlineShortcodes = true
   customCSS = [
     "https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css",
     "css/glightbox-custom.css"
-    ]
+  ]
   customJS  = [
     "https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js",
     "js/init-glightbox.js"
-]
+  ]

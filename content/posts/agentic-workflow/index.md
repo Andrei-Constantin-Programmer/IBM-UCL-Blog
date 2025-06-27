@@ -2,8 +2,10 @@
 date = '2025-06-27'
 draft = false
 title = 'Agentic Workflow'
-tags = ["AI", "LLM", "Agent", "IBM", "Watsonx", "Granite", "Llama", "LangFlow", "Architecture"]
+tags = ["AI", "LLM", "Agent", "IBM", "Watsonx", "Granite", "Llama", "Vector DB", "LangFlow", "LangGraph", "Architecture"]
 +++
+
+<a href="#tldr" class="btn">Jump to TL;DR</a>
 
 This week, our focus shifted from theory to implementation as we began shaping our first **agentic refactoring prototype**.
 
@@ -18,8 +20,8 @@ Thanks to **Vamsi**, who drafted the base structure, we’ve now consolidated ou
 This visual helps guide our implementation roadmap, defining how agents interact, what tools they invoke, and how decisions flow through the system.
 
 ### Agents
-- **Patern Scanner** - Is provided a Java file and uses RAG with the help of our Anti-Pattern Trove and (optionally) static analysis tools to find any and all instances of anti-patterns in the provided code. It then compiles a list of these anti-patterns and where they are located.
-- **Refactor Strategist** - Given the aforementioned list, it uses the knowledge from the Anti-Pattern Trove to define a comprehensive strategy to fix all anti-patterns, taking into consideration the effect of the cumulative changes.
+- **Pattern Scanner** - Is provided a Java file and uses RAG with the help of our Anti-Pattern Trove and (optionally) static analysis tools to find any and all instances of anti-patterns in the provided code. It then compiles a list of these anti-patterns and where they are located.
+- **Refactor Strategist** - Given the aforementioned list, it uses the knowledge from the Anti-Pattern Trove to define a comprehensive strategy to fix all anti-patterns, taking into account the cumulative impact of all changes.
 - **Code Transformer** - Applies the generated strategy by creating a new Java file with the necessary changes to remove the anti-patterns.
 - **Explainer** - Uses the information from the Strategist and Transformer to create a human-readable explanation of the anti-patterns discovered, why they are problematic, and the steps taken to solve them. Optionally, this information will be used to create commit and/or pull request messages for automatic code updates.
 - **Orchestrator** - Orchestrates the other agents (and tools) and ensures a proper control flow.
@@ -42,6 +44,16 @@ Our initial prototype was built in [**LangFlow**](https://www.langflow.org/), a 
 LangGraph allows us to explicitly define agent transitions, tool dependencies, and recovery behaviour, all critical for refactoring code with high reliability.
 
 Special thanks to **Maoqin** for setting up the first working version of our agentic pipeline in LangFlow, then LangGraph!
+
+Here is the original LangFlow workflow:
+### Data Loading Flow
+This is an anti-pattern proto-Trove.
+{{< figure-normal src="langflow-data-load-27-june.png" alt="Data Loading Flow" >}}
+
+### Pattern Retriever Flow
+This is a pre-agentic version of the Pattern Retriever.
+{{< figure-wide src="langflow-retriever-27-june.png" alt="Retriever Flow" >}}
+
 
 ## TL;DR
 

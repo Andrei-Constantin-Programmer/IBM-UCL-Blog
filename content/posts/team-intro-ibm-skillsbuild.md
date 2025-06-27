@@ -5,6 +5,8 @@ title = 'Building Our Foundation: AI Certifications on IBM SkillsBuild'
 tags = ["AI", "LLM", "SkillsBuild", "IBM", "Team Learning", "RAG", "Watsonx", "Embeddings", "Granite"]
 +++
 
+<a href="#tldr" class="btn">Jump to TL;DR</a>
+
 Welcome to the official blog for our **UCL MSc** project in collaboration with **IBM**!  
 
 Over the coming weeks, we'll share progress updates, key learnings, and reflections as we build an AI-powered tool to help modernise legacy software systems.
