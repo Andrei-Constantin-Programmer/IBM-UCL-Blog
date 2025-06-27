@@ -1,0 +1,7 @@
+.glightbox-clean .gcontainer {
+  background-color: #fff !important;
+}
+
+.glightbox-clean.glightbox-dark .gcontainer {
+  background-color: #000 !important;
+}

@@ -1,0 +1,22 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $img := .Page.Resources.GetMatch $src }}
+
+{{ if $img }}
+  <div style="
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    max-width: 1800px;
+    margin: 2rem 0;
+  ">
+    <a href="{{ $img.RelPermalink }}" class="glightbox">
+      <img src="{{ $img.RelPermalink }}"
+          alt="{{ $alt }}"
+          style="width: 100%; height: auto; display: block;">
+    </a>
+  </div>
+{{ else }}
+  <p style="color: red;">Image not found: {{ $src }}</p>
+{{ end }}
