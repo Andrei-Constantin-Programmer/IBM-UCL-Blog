@@ -51,7 +51,7 @@ This is an anti-pattern proto-Trove.
 {{< figure-normal src="langflow-data-load-27-june.png" alt="Data Loading Flow" >}}
 
 ### Pattern Retriever Flow
-This is a pre-agentic version of the Pattern Retriever.
+This is a pre-agentic version of the Pattern Scanner.
 {{< figure-wide src="langflow-retriever-27-june.png" alt="Retriever Flow" >}}
 
 
