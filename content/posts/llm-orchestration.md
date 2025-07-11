@@ -1,6 +1,6 @@
 +++
 date = '2025-07-11'
-draft = true
+draft = false
 title = 'LLM Orchestration and System Readiness'
 tags =  ["AI", "LLM", "SonarQube", "Refactoring", "Agentic AI", "WatsonX", "Ollama", "vLLM", "UCL", "IBM"]
 +++
