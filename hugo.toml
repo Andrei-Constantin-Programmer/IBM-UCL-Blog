@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 enableInlineShortcodes = true
 
 [params]
-    mainSections = ["posts", "project", "team"]
+    mainSections = ["posts", "vlogs", "project", "team"]
     ShowBreadCrumbs = true
     ShowReadingTime = true
     ShowPostNavLinks = true
@@ -30,14 +30,19 @@ enableInlineShortcodes = true
     weight = 2
 
 [[menu.main]]
+  name = "Vlogs"
+  url = "/vlogs"
+  weight = 3
+
+[[menu.main]]
   name = "Project"
   url = "/project"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Team"
   url = "/team"
-  weight = 4
+  weight = 5
 
 [params.assets]
   customCSS = [
