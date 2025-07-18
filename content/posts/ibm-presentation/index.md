@@ -1,6 +1,6 @@
 +++
 date = '2025-07-18'
-draft = true
+draft = false
 title = 'Presenting Our Refactoring Platform at IBM Innovation Studio London'
 tags = ["IBM", "TechXChange", "AI", "LLM", "Watsonx", "Granite", "Presentation"]
 +++
