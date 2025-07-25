@@ -5,7 +5,7 @@ title = 'Project'
 layout = "page"
 +++
 
-# LLM-Based Legacy Refactoring  
+# Anti-Pattern Resolutor  
 *A modular, agentic system for detecting and fixing anti-patterns in fully-tested Java code*
 
 This MSc group project is a collaboration between UCL and IBM.
@@ -40,10 +40,10 @@ The tool is designed to support **both automated and interactive workflows**:
 
 Our tool is built as a set of cooperating agents, following the **Model Context Protocol (MCP)**. Each agent is responsible for a distinct part of the pipeline.
 
-- **Coverage Agent**: Ensures the file is fully tested before any changes are made.
-- **Scanner Agent**: Detects known anti-patterns using heuristics and LLM support.
-- **Refactoring Agent**: Proposes improved code based on modern idioms.
+- **Pattern Scanner**: Detects known anti-patterns using heuristics and LLM support.
+- **Refactoring Strategist**: Proposes improved code based on modern idioms.
 - **Code Transformer**: Applies changes safely, without breaking public APIs.
+- **Code Reviewer**: Reviews the Transformer's code.
 - **Test Executor**: Runs tests to confirm correctness.
 - **Change Narrator**: Provides human-readable rationales for each transformation.
 

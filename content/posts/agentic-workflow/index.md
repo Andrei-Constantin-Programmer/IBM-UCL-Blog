@@ -10,12 +10,15 @@ tags = ["AI", "LLM", "Agent", "IBM", "Watsonx", "Granite", "Llama", "Vector DB",
 This week, our focus shifted from theory to implementation as we began shaping our first **agentic refactoring prototype**.
 
 ## 1. Visualising the Workflow
+*Last Updated: 25 July*
 
 After exploring multi-agent architectures and SkillsBuild certifications, we started formalising how our AI-powered refactoring system should operate end-to-end.
 
-Thanks to **Vamsi**, who drafted the base structure, we’ve now consolidated our ideas into a clear, modular **agentic workflow** (click on image to enlarge):
+Thanks to **Vamsi**, who drafted the base structure, we’ve now consolidated our ideas into a clear, modular **agentic workflow** *(click on image to enlarge)*:
 
-{{< figure-wide src="agentic-workflow-27-june.png" alt="Agentic workflow diagram" >}}
+{{< figure-wide src="agentic-workflow-25-july.png" alt="Agentic workflow diagram" >}}
+
+{{< figure-normal src="workflow-legend-25-july.png" alt="Agentic workflow diagram" >}}
 
 This visual helps guide our implementation roadmap, defining how agents interact, what tools they invoke, and how decisions flow through the system.
 
@@ -23,6 +26,7 @@ This visual helps guide our implementation roadmap, defining how agents interact
 - **Pattern Scanner** - Is provided a Java file and uses RAG with the help of our Anti-Pattern Trove and (optionally) static analysis tools to find any and all instances of anti-patterns in the provided code. It then compiles a list of these anti-patterns and where they are located.
 - **Refactor Strategist** - Given the aforementioned list, it uses the knowledge from the Anti-Pattern Trove to define a comprehensive strategy to fix all anti-patterns, taking into account the cumulative impact of all changes.
 - **Code Transformer** - Applies the generated strategy by creating a new Java file with the necessary changes to remove the anti-patterns.
+- **Code Reviewer** - Reviews the transformed code and (potentially) requests changes, entering a loop with the **Transformer**.
 - **Explainer** - Uses the information from the Strategist and Transformer to create a human-readable explanation of the anti-patterns discovered, why they are problematic, and the steps taken to solve them. Optionally, this information will be used to create commit and/or pull request messages for automatic code updates.
 - **Orchestrator** - Orchestrates the other agents (and tools) and ensures a proper control flow.
 

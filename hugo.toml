@@ -1,6 +1,6 @@
 baseURL = 'https://Andrei-Constantin-Programmer.github.io/ibm-ucl-blog/'
 languageCode = 'en-gb'
-title = 'LLM-Powered Legacy Code Refactoring'
+title = 'Anti-Pattern Resolutor'
 theme = "PaperMod"
 defaultContentLanguage = "en"
 enableInlineShortcodes = true
