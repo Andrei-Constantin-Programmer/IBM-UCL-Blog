@@ -1,6 +1,6 @@
 +++
 date = '2025-07-25'
-draft = true
+draft = false
 title = 'Architecting the Anti-Pattern Resolutor'
 tags = ["AI", "LLM", "Agent", "IBM", "Architecture", "Workflow", "Diagram", "WatsonX"]
 +++
