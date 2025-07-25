@@ -7,8 +7,9 @@ layout = "single"
 Here you can find all of our vlogs by our one and only **Avinash Mallick**!
 
 ## Vlog 5 - Prototype Demo
-*July 25th 2025*
+*July 25th 2025*  
 Featuring **Abhaya Ghimire**
+{{< youtube nPU3zgrGZvs >}}
 
 --- 
 
