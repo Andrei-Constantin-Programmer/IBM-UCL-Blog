@@ -7,8 +7,8 @@ layout = "single"
 Here you can find all of our vlogs by our one and only **Avinash Mallick**!
 
 ## Vlog 6 - Hackathon Experiences @ Tessl HQ
-*August 11th 2025*
-{{< youtube NhI5SBV6dxg> }}
+*August 11th 2025*  
+{{< youtube NhI5SBV6dxg >}}
 
 ---
 
