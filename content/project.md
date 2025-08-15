@@ -14,7 +14,7 @@ This MSc group project is a collaboration between UCL and IBM.
 
 Modernising legacy code is one of the most persistent and expensive challenges in software engineering. Rewriting from scratch is often infeasible, manual refactoring at scale is slow, error-prone, and hard to standardise. We want to build an intelligent, safe alternative.
 
-This project aims to develop an **LLM-powered refactoring pipeline** that detects and replaces anti-patterns with **modern, idiomatic Java**, operating only on code that is **fully covered by tests**. It will use a **multi-agent architecture** to ensure each stage - detection, transformation, explanation, and validation - is precise, modular, and auditable.
+This project aims to develop an **LLM-powered refactoring pipeline** that detects and replaces anti-patterns with **modern, idiomatic Java**, operating only on code that is **fully covered by tests**. It uses a **multi-agent architecture** to ensure each stage - detection, transformation, explanation, and validation - is precise, modular, and auditable.
 
 We are experimenting with multiple LLMs (IBM Granite, Ollama, etc.) to evaluate which models are best suited for understanding, rewriting, and explaining legacy code.
 
@@ -38,14 +38,14 @@ The tool is designed to support **both automated and interactive workflows**:
 
 ## System Architecture
 
-Our tool is built as a set of cooperating agents, following the **Model Context Protocol (MCP)**. Each agent is responsible for a distinct part of the pipeline.
+Our tool is built as a set of cooperating agents. Each agent is responsible for a distinct part of the pipeline.
 
 - **Pattern Scanner**: Detects known anti-patterns using heuristics and LLM support.
 - **Refactoring Strategist**: Proposes improved code based on modern idioms.
 - **Code Transformer**: Applies changes safely, without breaking public APIs.
 - **Code Reviewer**: Reviews the Transformer's code.
 - **Test Executor**: Runs tests to confirm correctness.
-- **Change Narrator**: Provides human-readable rationales for each transformation.
+- **Explainer**: Provides human-readable rationales for all transformations.
 
 ---
 

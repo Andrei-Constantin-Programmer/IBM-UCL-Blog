@@ -16,7 +16,7 @@ DevOps and systems engineer with expertise in high-performance computing and C#.
 [🔗 GitHub](https://github.com/avimallick) | [💼 LinkedIn](https://www.linkedin.com/in/avinash-mallick-b272b6214/)
 ### Maoquin Lei 
 DevOps specialist with deep Python knowledge and a focus on automation and infrastructure.  
-[🔗 GitHub](https://github.com/ucabm57)
+[🔗 GitHub](https://github.com/ucabm57) | [💼 LinkedIn](https://www.linkedin.com/in/maoqin-lei-a04609351/)
 ### Vamsi Mukkamala
 AI/ML engineer experienced in applied machine learning and workflow analysis.  
 [🔗 GitHub](https://github.com/vmc99) | [💼 LinkedIn](https://www.linkedin.com/in/vmc99/)
