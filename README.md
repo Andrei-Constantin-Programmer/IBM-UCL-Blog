@@ -1,5 +1,5 @@
 # IBM x UCL - Anti-Pattern Resolutor (Tech Blog)
-[![Blog](https://img.shields.io/badge/Live-Blog-blue?style=flat-square&logo=githubpages)](https://andrei-constantin-programmer.github.io/Anti-Pattern-Resolutor-Blog)
+[![Blog](https://img.shields.io/badge/Live-Blog-blue?style=flat-square&logo=githubpages)](https://andrei-constantin-programmer.github.io/IBM-UCL-Blog)
 [![Hugo](https://github.com/Andrei-Constantin-Programmer/IBM-UCL-Blog/actions/workflows/hugo.yml/badge.svg)](https://github.com/Andrei-Constantin-Programmer/IBM-UCL-Blog/actions/workflows/hugo.yml)
 [![GitHub License](https://img.shields.io/github/license/Andrei-Constantin-Programmer/IBM-UCL-Blog)](https://github.com/Andrei-Constantin-Programmer/IBM-UCL-Blog/blob/main/LICENSE)
 
@@ -8,7 +8,7 @@ This repository contains the official tech blog for our MSc group project at Uni
 The project explores how Large Language Models (LLMs) can assist in refactoring legacy software systems to improve maintainability, reduce technical debt, and accelerate modernisation efforts.
 
 ## 🌐 Live Site 
-[**Visit the blog**](https://andrei-constantin-programmer.github.io/Anti-Pattern-Resolutor-Blog)
+[**Visit the blog**](https://andrei-constantin-programmer.github.io/IBM-UCL-Blog)
 
 ## 🔗 Related Project
 The codebase we write about: [Anti-Pattern Resolutor](https://github.com/Andrei-Constantin-Programmer/Anti-Pattern-Resolutor).
